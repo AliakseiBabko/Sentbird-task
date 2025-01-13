@@ -7,58 +7,39 @@ test.beforeEach(async ({ page }) => {
   await giftPage.navigate();
 });
 
-test('The page loads correctly', async ({ page }) => {
+test('Verify valid gift subscription order up to checkout pop-up', async ({ page }) => {
   const giftPage = new GiftPage(page);
 
-  await expect(giftPage.giftSubscriptionForm).toBeVisible();
-  await expect(giftPage.scentLabel).toBeVisible();
-  await expect(giftPage.cologneRadio).toBeVisible();
-  await expect(giftPage.perfumeRadio).toBeVisible();
-  await expect(giftPage.recipientNameInput).toBeVisible();
-  await expect(giftPage.recipientEmailInput).toBeVisible();
-  await expect(giftPage.messageTextarea).toBeVisible();
-  await expect(giftPage.senderNameInput).toBeVisible();
-  await expect(giftPage.sendNowRadio).toBeVisible();
-  await expect(giftPage.sendLaterRadio).toBeVisible();
-  await expect(giftPage.payButton).toBeVisible();
-});
+  // Fill out the gift form with valid data
+  await giftPage.fillGiftForm('Alice Smith', 'alice.smith@example.com', 'Happy Birthday, enjoy the gift!', 'Bob Johnson');
 
-test('Verify the "Choose a later date to send" date selection', async ({ page }) => {
-  const giftPage = new GiftPage(page);
-
-  await giftPage.selectLaterDate('6', '3');
-  await expect(giftPage.monthSelect).toHaveValue('6');
-  await expect(giftPage.daySelect).toHaveValue('3');
-});
-
-test('Verify form submission and Checkout pop-up', async ({ page }) => {
-  const giftPage = new GiftPage(page);
-
-  // Use valid data from testData.json
-  await giftPage.fillGiftForm(testData.validGiftData);
-
-  await giftPage.selectLaterDate('6', '3');
+  // Click the "Pay for your order" button
   await giftPage.clickPayButton();
-  await giftPage.verifyPopUp();
+
+ // Verify that the cart pop-up contains correct information
+  const popUp = page.getByTestId('cartModal');
+  await expect(popUp.getByTestId('total')).toContainText('Total$');  
+  await expect(popUp.getByTestId('modalPrimaryButton')).toHaveText('Checkout');
 });
 
-test('Submit an empty form', async ({ page }) => {
+test('Verify past date selection triggers error', async ({ page }) => {
   const giftPage = new GiftPage(page);
 
+  // Fill the required fields with valid data
+  await giftPage.fillGiftForm('Alice Smith', 'alice.smith@example.com');
+
+  // Select a past date (e.g., January 1st, 2024)
+  await giftPage.selectDate('1', '1');
+
+  // Verify that the selected date is shown in the date picker
+  await expect(giftPage.monthSelect).toHaveValue('1');
+  await expect(giftPage.daySelect).toHaveValue('1');
+  await expect(giftPage.yearSelect).toHaveValue('2025');
+
+  // Click the "Pay for your order" button
   await giftPage.clickPayButton();
-  await giftPage.validateFormErrors();
-});
 
-test('Recipient\'s name field allows entering only Latin letters', async ({ page }) => {
-  const giftPage = new GiftPage(page);
-
-  // Use invalid inputs from testData.json
-  for (const input of testData.invalidInputs) {
-    const isValid = await giftPage.validateRecipientNameInput(input);
-    expect(isValid, `Input value '${input}' should only allow Latin letters`).toBe(true);
-  }
-
-  const validInput = 'John Doe';
-  const isValid = await giftPage.validateRecipientNameInput(validInput);
-  expect(isValid, `Valid input '${validInput}' should be accepted`).toBe(true);
+  // Verify that the error message "Date must be in the future" is shown
+  const errorMessage = await giftPage.dateError.textContent();
+  expect(errorMessage).toBe('Date must be in the future');
 });

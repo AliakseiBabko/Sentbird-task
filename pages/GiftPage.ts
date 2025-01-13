@@ -1,37 +1,47 @@
-import { expect, type Locator, Page } from '@playwright/test';
+import { expect, type Locator, Page } from '@playwright/test'; 
 import { BasePage } from './BasePage';
 
 export class GiftPage extends BasePage {
-  readonly giftSubscriptionForm: Locator;
+  readonly breadcrumbsGifts: Locator;
+  readonly breadcrumbsGiftSubscription: Locator;
+  readonly breadcrumbsCurrent: Locator;
+  readonly asideImage: Locator;
+  readonly subscriptionForm: Locator;
   readonly scentLabel: Locator;
-  readonly cologneRadio: Locator;
-  readonly perfumeRadio: Locator;
-  readonly recipientNameInput: Locator;
-  readonly recipientEmailInput: Locator;
-  readonly messageTextarea: Locator;
-  readonly senderNameInput: Locator;
-  readonly sendNowRadio: Locator;
-  readonly sendLaterRadio: Locator;
+  readonly cologne: Locator;
+  readonly perfume: Locator;
+  readonly recipientName: Locator;
+  readonly recipientEmail: Locator;
+  readonly message: Locator;
+  readonly senderName: Locator;
+  readonly sendNow: Locator;
+  readonly sendLater: Locator;
   readonly payButton: Locator;
   readonly datePicker: Locator;
+  readonly dateError: Locator;
   readonly monthSelect: Locator;
   readonly daySelect: Locator;
   readonly yearSelect: Locator;
 
   constructor(page: Page) {
     super(page);
-    this.giftSubscriptionForm = page.getByTestId('giftSubscriptionForm');
+    this.breadcrumbsGifts = page.getByRole('link', { name: 'Gifts' });
+    this.breadcrumbsGiftSubscription = page.getByRole('link', { name: 'Gift subscription' });
+    this.breadcrumbsCurrent = page.getByTestId('breadcrumbsCurrent');
+    this.asideImage = page.locator('aside img');
+    this.subscriptionForm = page.getByTestId('giftSubscriptionForm');
     this.scentLabel = page.getByText('What type of scent does this');
-    this.cologneRadio = page.getByTestId('recipientGenderOptionMale');
-    this.perfumeRadio = page.getByTestId('recipientGenderOptionFemale');
-    this.recipientNameInput = page.getByTestId('recipientName');
-    this.recipientEmailInput = page.getByTestId('recipientEmail');
-    this.messageTextarea = page.getByTestId('recipientMessage');
-    this.senderNameInput = page.getByTestId('senderName');
-    this.sendNowRadio = page.getByTestId('sendDateOptionNow');
-    this.sendLaterRadio = page.getByTestId('sendDateOptionLater');
+    this.cologne = page.getByTestId('recipientGenderOptionMale');
+    this.perfume = page.getByTestId('recipientGenderOptionFemale');
+    this.recipientName = page.getByTestId('recipientName');
+    this.recipientEmail = page.getByTestId('recipientEmail');
+    this.message = page.getByTestId('recipientMessage');
+    this.senderName = page.getByTestId('senderName');
+    this.sendNow = page.getByTestId('sendDateOptionNow');
+    this.sendLater = page.getByTestId('sendDateOptionLater');
     this.payButton = page.getByTestId('checkoutNowButton');
     this.datePicker = page.getByTestId('date');
+    this.dateError = page.getByTestId('dateError');
     this.monthSelect = page.getByTestId('dateMonth');
     this.daySelect = page.getByTestId('dateDay');
     this.yearSelect = page.getByTestId('dateYear');
@@ -42,15 +52,15 @@ export class GiftPage extends BasePage {
     await this.acceptCookies();
   }
 
-  async fillGiftForm({ recipientName, recipientEmail, message, senderName }: { recipientName: string, recipientEmail: string, message: string, senderName: string }) {
-    await this.recipientNameInput.fill(recipientName);
-    await this.recipientEmailInput.fill(recipientEmail);
-    await this.messageTextarea.fill(message);
-    await this.senderNameInput.fill(senderName);
+  async fillGiftForm(recipientName: string, recipientEmail: string, message?: string, senderName?: string) {
+    await this.recipientName.fill(recipientName);
+    await this.recipientEmail.fill(recipientEmail);
+    await this.message.fill(message || '');
+    await this.senderName.fill(senderName || '');
   }
 
-  async selectLaterDate(month: string, day: string) {
-    await this.sendLaterRadio.click();
+  async selectDate(month: string, day: string) {
+    await this.sendLater.click();
     await expect(this.datePicker).toBeVisible();
     await this.monthSelect.selectOption({ value: month });
     await this.daySelect.selectOption({ value: day });
@@ -60,7 +70,7 @@ export class GiftPage extends BasePage {
     await this.payButton.click();
   }
 
-  async verifyPopUp() {
+  async verifyGift() {
     const popUp = this.page.getByTestId('cartModal');
     await expect(popUp).toBeVisible();
     const popUpTitle = popUp.getByTestId('title');
@@ -77,9 +87,9 @@ export class GiftPage extends BasePage {
     await expect(recipientEmailError).toBeVisible();
   }
 
-  async validateRecipientNameInput(inputValue: string) {
-    await this.recipientNameInput.fill(inputValue);
-    const currentValue = await this.recipientNameInput.inputValue();
+  async validateRecipientName(inputValue: string) {
+    await this.recipientName.fill(inputValue);
+    const currentValue = await this.recipientName.inputValue();
     const isValid = /^[A-Za-z\s]*$/.test(currentValue);
     return isValid;
   }
