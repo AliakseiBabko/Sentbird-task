@@ -12,6 +12,8 @@ export class GiftPage extends BasePage {
   readonly perfume: Locator;
   readonly recipientName: Locator;
   readonly recipientEmail: Locator;
+  readonly recipientNameError: Locator;
+  readonly recipientEmailError: Locator;
   readonly message: Locator;
   readonly senderName: Locator;
   readonly sendNow: Locator;
@@ -34,7 +36,9 @@ export class GiftPage extends BasePage {
     this.cologne = page.getByTestId('recipientGenderOptionMale');
     this.perfume = page.getByTestId('recipientGenderOptionFemale');
     this.recipientName = page.getByTestId('recipientName');
+    this.recipientNameError = page.getByTestId('recipientNameError');
     this.recipientEmail = page.getByTestId('recipientEmail');
+    this.recipientEmailError = page.getByTestId('recipientEmailError');
     this.message = page.getByTestId('recipientMessage');
     this.senderName = page.getByTestId('senderName');
     this.sendNow = page.getByTestId('sendDateOptionNow');

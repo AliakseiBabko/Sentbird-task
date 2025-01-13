@@ -1,6 +1,5 @@
 import { test, expect } from '@playwright/test';
 import { GiftPage } from '../pages/GiftPage';
-import * as testData from '../data/testData.json';
 
 test.beforeEach(async ({ page }) => {
   const giftPage = new GiftPage(page);
@@ -17,6 +16,21 @@ test('Verify valid gift subscription order up to checkout pop-up', async ({ page
   await giftPage.clickPayButton();
 
  // Verify that the cart pop-up contains correct information
+  const popUp = page.getByTestId('cartModal');
+  await expect(popUp.getByTestId('total')).toContainText('Total$');  
+  await expect(popUp.getByTestId('modalPrimaryButton')).toHaveText('Checkout');
+});
+
+test('Form Submission with Optional Fields Left Blank', async ({ page }) => {
+  const giftPage = new GiftPage(page);
+
+  // Fill out the form with required fields and leave optional fields blank
+  await giftPage.fillGiftForm('John Doe', 'john.doe@example.com');
+
+  // Click the "Pay for your order" button
+  await giftPage.clickPayButton();
+
+  // Verify that the cart pop-up contains the correct information
   const popUp = page.getByTestId('cartModal');
   await expect(popUp.getByTestId('total')).toContainText('Total$');  
   await expect(popUp.getByTestId('modalPrimaryButton')).toHaveText('Checkout');
@@ -42,4 +56,19 @@ test('Verify past date selection triggers error', async ({ page }) => {
   // Verify that the error message "Date must be in the future" is shown
   const errorMessage = await giftPage.dateError.textContent();
   expect(errorMessage).toBe('Date must be in the future');
+});
+
+test('Verify that required fields are highlighted when the form is submitted empty', async ({ page }) => {
+  const giftPage = new GiftPage(page);
+
+  // Click the 'Pay for your order' button without filling in the required fields
+  await giftPage.clickPayButton();
+
+  // Check that the required fields are highlighted
+  await expect(giftPage.recipientName).toHaveAttribute('aria-invalid', 'true');
+  await expect(giftPage.recipientEmail).toHaveAttribute('aria-invalid', 'true');
+
+  // Verify that no confirmation pop-up appears
+  const confirmationPopup = page.locator('.confirmation-popup');
+  await expect(confirmationPopup).toHaveCount(0);
 });
