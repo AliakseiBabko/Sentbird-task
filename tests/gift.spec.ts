@@ -1,5 +1,5 @@
 import { test, expect } from '@playwright/test';
-import { GiftPage } from '../pages/GiftPage';
+import { GiftPage } from '../business/pages/GiftPage';
 
 test.beforeEach(async ({ page }) => {
   const giftPage = new GiftPage(page);
