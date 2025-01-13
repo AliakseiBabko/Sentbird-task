@@ -76,12 +76,8 @@ export class GiftPage extends BasePage {
 
   async verifyGift() {
     const popUp = this.page.getByTestId('cartModal');
-    await expect(popUp).toBeVisible();
-    const popUpTitle = popUp.getByTestId('title');
-    await expect(popUpTitle).toContainText('Your cart total - $');
-    const checkoutButton = popUp.getByTestId('modalPrimaryButton');
-    await expect(checkoutButton).toBeVisible();
-    await expect(checkoutButton).toHaveText('Checkout');
+    await expect(popUp.getByTestId('total')).toContainText('Total$');  
+    await expect(popUp.getByTestId('modalPrimaryButton')).toHaveText('Checkout');
   }
 
   async validateFormErrors() {

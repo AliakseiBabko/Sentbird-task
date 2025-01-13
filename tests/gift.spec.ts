@@ -16,9 +16,7 @@ test('Verify valid gift subscription order up to checkout pop-up', async ({ page
   await giftPage.clickPayButton();
 
  // Verify that the cart pop-up contains correct information
-  const popUp = page.getByTestId('cartModal');
-  await expect(popUp.getByTestId('total')).toContainText('Total$');  
-  await expect(popUp.getByTestId('modalPrimaryButton')).toHaveText('Checkout');
+  await giftPage.verifyGift();
 });
 
 test('Form Submission with Optional Fields Left Blank', async ({ page }) => {
@@ -31,9 +29,23 @@ test('Form Submission with Optional Fields Left Blank', async ({ page }) => {
   await giftPage.clickPayButton();
 
   // Verify that the cart pop-up contains the correct information
-  const popUp = page.getByTestId('cartModal');
-  await expect(popUp.getByTestId('total')).toContainText('Total$');  
-  await expect(popUp.getByTestId('modalPrimaryButton')).toHaveText('Checkout');
+  await giftPage.verifyGift();
+});
+
+test('Switch Scent to Perfume and Order Immediately', async ({ page }) => {
+  const giftPage = new GiftPage(page);
+
+  // Switch scent preference to "Perfume"
+  await giftPage.perfume.click();
+
+  // Fill out the gift form with valid data
+  await giftPage.fillGiftForm('Alice Smith', 'alice.smith@example.com', 'Happy Birthday, enjoy the gift!', 'Bob Johnson');
+
+  // Click the "Pay for your order" button
+  await giftPage.clickPayButton();
+
+  // Verify that the cart pop-up contains the correct information
+  await giftPage.verifyGift();
 });
 
 test('Verify past date selection triggers error', async ({ page }) => {
