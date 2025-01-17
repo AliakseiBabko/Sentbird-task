@@ -1,0 +1,52 @@
+[
+  {
+    "name": "datadome",
+    "value": "MWbnt0p9Xyh843OeF9e6Y7f9kMUvYDYqHt4wkDLHgH1dO2vW89DBJZhXJXXsdmv7Qf4UbtKZLeC2csLP4SYXZ1th0ESUgoerCmJIOy57or_loauiKhClv~yqGFqofcom",
+    "domain": ".scentbird.com",
+    "path": "/",
+    "expires": 1768653145.732,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "solvvy_session",
+    "value": "934b5ke9AEpUUKu1A20QFFm7fy7nqY2KCAVwPLEbnG041ahU",
+    "domain": ".scentbird.com",
+    "path": "/",
+    "expires": 1771677145.735783,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "scnt_session_v3",
+    "value": "934b562d-e13f-40b5-8e30-3822dc105a3e",
+    "domain": ".scentbird.com",
+    "path": "/",
+    "expires": 1737153145,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "scnt_locale",
+    "value": "en-US",
+    "domain": "www.scentbird.com",
+    "path": "/",
+    "expires": 1768653145.733,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "csrfToken",
+    "value": "1b2abcd4-4165-4507-8739-cf3aeb20f6ae",
+    "domain": "www.scentbird.com",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  }
+]

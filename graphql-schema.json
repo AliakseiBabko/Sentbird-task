@@ -1,0 +1,8521 @@
+{
+  "data": {
+    "__schema": {
+      "types": [
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "name"
+            },
+            {
+              "name": "value"
+            },
+            {
+              "name": "mixpanelProperty"
+            },
+            {
+              "name": "enabled"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "abTests"
+            }
+          ]
+        },
+        {
+          "kind": "UNION",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "data"
+            },
+            {
+              "name": "error"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "uid"
+            },
+            {
+              "name": "slug"
+            },
+            {
+              "name": "status"
+            },
+            {
+              "name": "title"
+            },
+            {
+              "name": "description"
+            },
+            {
+              "name": "trailerUrl"
+            },
+            {
+              "name": "lessons"
+            },
+            {
+              "name": "deliveryOrder"
+            },
+            {
+              "name": "product"
+            },
+            {
+              "name": "kits"
+            }
+          ]
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "uid"
+            },
+            {
+              "name": "sortIndex"
+            },
+            {
+              "name": "status"
+            },
+            {
+              "name": "title"
+            },
+            {
+              "name": "description"
+            },
+            {
+              "name": "position"
+            },
+            {
+              "name": "duration"
+            },
+            {
+              "name": "videoUrl"
+            },
+            {
+              "name": "previewUrl"
+            },
+            {
+              "name": "trailerUrl"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "errorCode"
+            },
+            {
+              "name": "message"
+            }
+          ]
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "data"
+            },
+            {
+              "name": "error"
+            }
+          ]
+        },
+        {
+          "kind": "UNION",
+          "fields": null
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "data"
+            }
+          ]
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "tradingItemId"
+            },
+            {
+              "name": "tradingItemUid"
+            },
+            {
+              "name": "productValidationErrorCode"
+            },
+            {
+              "name": "businessErrorCode"
+            },
+            {
+              "name": "message"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "queue"
+            },
+            {
+              "name": "productsAdded"
+            }
+          ]
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "id"
+            },
+            {
+              "name": "primary"
+            },
+            {
+              "name": "country"
+            },
+            {
+              "name": "postalCode"
+            },
+            {
+              "name": "region"
+            },
+            {
+              "name": "city"
+            },
+            {
+              "name": "street1"
+            },
+            {
+              "name": "street2"
+            },
+            {
+              "name": "phone"
+            },
+            {
+              "name": "firstName"
+            },
+            {
+              "name": "lastName"
+            }
+          ]
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "data"
+            },
+            {
+              "name": "error"
+            }
+          ]
+        },
+        {
+          "kind": "UNION",
+          "fields": null
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "data"
+            },
+            {
+              "name": "error"
+            }
+          ]
+        },
+        {
+          "kind": "UNION",
+          "fields": null
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "data"
+            },
+            {
+              "name": "error"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "result"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "data"
+            },
+            {
+              "name": "error"
+            }
+          ]
+        },
+        {
+          "kind": "UNION",
+          "fields": null
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "data"
+            },
+            {
+              "name": "error"
+            }
+          ]
+        },
+        {
+          "kind": "UNION",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "errorCode"
+            },
+            {
+              "name": "message"
+            }
+          ]
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "billing"
+            },
+            {
+              "name": "shipping"
+            },
+            {
+              "name": "status"
+            }
+          ]
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "placeId"
+            },
+            {
+              "name": "mainText"
+            },
+            {
+              "name": "secondaryText"
+            },
+            {
+              "name": "type"
+            },
+            {
+              "name": "highlight"
+            }
+          ]
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "data"
+            },
+            {
+              "name": "error"
+            }
+          ]
+        },
+        {
+          "kind": "UNION",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "address"
+            },
+            {
+              "name": "isPrimaryAddress"
+            }
+          ]
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "data"
+            },
+            {
+              "name": "error"
+            }
+          ]
+        },
+        {
+          "kind": "UNION",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "errorCode"
+            },
+            {
+              "name": "message"
+            }
+          ]
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "error"
+            }
+          ]
+        },
+        {
+          "kind": "UNION",
+          "fields": null
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "uid"
+            },
+            {
+              "name": "summary"
+            },
+            {
+              "name": "highlights"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "recurlyPublicKey"
+            },
+            {
+              "name": "recurlyAmazonPaySellerId"
+            },
+            {
+              "name": "recurlyAmazonPayClientId"
+            },
+            {
+              "name": "amazonPayUrl"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "suggestions"
+            },
+            {
+              "name": "message"
+            }
+          ]
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "mixpanelClientId"
+            },
+            {
+              "name": "firstSubscriptionDate"
+            },
+            {
+              "name": "daysFromFirstSubscription"
+            },
+            {
+              "name": "subscriptionStatus"
+            },
+            {
+              "name": "lifetimeStatus"
+            },
+            {
+              "name": "hasScentProfile"
+            },
+            {
+              "name": "isGiftSubscription"
+            },
+            {
+              "name": "lifeTimeRevenue"
+            },
+            {
+              "name": "subscriptionPlan"
+            },
+            {
+              "name": "lastSubscriptionDate"
+            },
+            {
+              "name": "productsInQueueQty"
+            },
+            {
+              "name": "firstTouchUtm"
+            },
+            {
+              "name": "lastTouchUtm"
+            }
+          ]
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "errorCode"
+            },
+            {
+              "name": "message"
+            }
+          ]
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "recurlyPublicKey"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "errorCode"
+            },
+            {
+              "name": "message"
+            }
+          ]
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        },
+        {
+          "kind": "UNION",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "id"
+            },
+            {
+              "name": "name"
+            },
+            {
+              "name": "alt"
+            },
+            {
+              "name": "url"
+            },
+            {
+              "name": "mixpanelName"
+            },
+            {
+              "name": "desktopImg"
+            },
+            {
+              "name": "mobileImg"
+            },
+            {
+              "name": "productOfMonth"
+            }
+          ]
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "id"
+            },
+            {
+              "name": "type"
+            },
+            {
+              "name": "banners"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "data"
+            }
+          ]
+        },
+        {
+          "kind": "SCALAR",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "id"
+            },
+            {
+              "name": "wordPressId"
+            },
+            {
+              "name": "wordPressDateCreated"
+            },
+            {
+              "name": "title"
+            },
+            {
+              "name": "description"
+            },
+            {
+              "name": "pictureUrl"
+            },
+            {
+              "name": "postUrl"
+            }
+          ]
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "data"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "posts"
+            },
+            {
+              "name": "count"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "id"
+            },
+            {
+              "name": "type"
+            },
+            {
+              "name": "blogPosts"
+            }
+          ]
+        },
+        {
+          "kind": "SCALAR",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "id"
+            },
+            {
+              "name": "name"
+            },
+            {
+              "name": "slug"
+            },
+            {
+              "name": "description"
+            },
+            {
+              "name": "logo"
+            },
+            {
+              "name": "country"
+            },
+            {
+              "name": "year"
+            },
+            {
+              "name": "medias"
+            },
+            {
+              "name": "products"
+            },
+            {
+              "name": "blogPosts"
+            },
+            {
+              "name": "popular"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "type"
+            },
+            {
+              "name": "desktop"
+            },
+            {
+              "name": "mobile"
+            },
+            {
+              "name": "tabletLandscape"
+            },
+            {
+              "name": "tabletPortrait"
+            }
+          ]
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "medias"
+            },
+            {
+              "name": "count"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "products"
+            },
+            {
+              "name": "count"
+            },
+            {
+              "name": "error"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "errorCode"
+            },
+            {
+              "name": "message"
+            }
+          ]
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "slug"
+            },
+            {
+              "name": "name"
+            },
+            {
+              "name": "description"
+            },
+            {
+              "name": "image"
+            }
+          ]
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "data"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "errorCode"
+            },
+            {
+              "name": "message"
+            },
+            {
+              "name": "metadata"
+            }
+          ]
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "id"
+            },
+            {
+              "name": "type"
+            },
+            {
+              "name": "title"
+            },
+            {
+              "name": "candleSubscription"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "id"
+            },
+            {
+              "name": "type"
+            },
+            {
+              "name": "image"
+            },
+            {
+              "name": "subtitle"
+            },
+            {
+              "name": "title"
+            },
+            {
+              "name": "text"
+            },
+            {
+              "name": "button"
+            },
+            {
+              "name": "carScentSubscription"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "id"
+            },
+            {
+              "name": "type"
+            },
+            {
+              "name": "title"
+            },
+            {
+              "name": "cards"
+            },
+            {
+              "name": "recommenderName"
+            },
+            {
+              "name": "rebrandHiddenLabels"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "id"
+            },
+            {
+              "name": "type"
+            },
+            {
+              "name": "label"
+            },
+            {
+              "name": "title"
+            },
+            {
+              "name": "description"
+            },
+            {
+              "name": "bannerImage"
+            },
+            {
+              "name": "buttonText"
+            },
+            {
+              "name": "cards"
+            },
+            {
+              "name": "catalogueSection"
+            },
+            {
+              "name": "recommenderName"
+            },
+            {
+              "name": "rebrandHiddenLabels"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "subscription"
+            },
+            {
+              "name": "subscriptionPromos"
+            },
+            {
+              "name": "products"
+            },
+            {
+              "name": "ecommercePromos"
+            },
+            {
+              "name": "limitedDropItems"
+            },
+            {
+              "name": "pickedProducts"
+            },
+            {
+              "name": "giftCard"
+            },
+            {
+              "name": "giftSubscription"
+            },
+            {
+              "name": "queueItems"
+            },
+            {
+              "name": "queuePromos"
+            },
+            {
+              "name": "total"
+            },
+            {
+              "name": "subTotal"
+            },
+            {
+              "name": "discounts"
+            },
+            {
+              "name": "shipping"
+            },
+            {
+              "name": "credits"
+            },
+            {
+              "name": "appliedPriceRules"
+            },
+            {
+              "name": "recommendationTag"
+            },
+            {
+              "name": "removedProducts"
+            },
+            {
+              "name": "purchaseProgress"
+            },
+            {
+              "name": "id"
+            },
+            {
+              "name": "currencyCode"
+            },
+            {
+              "name": "countryCode"
+            }
+          ]
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "cart"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "errorCode"
+            },
+            {
+              "name": "message"
+            },
+            {
+              "name": "errorDetails"
+            }
+          ]
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "tradingItemId"
+            },
+            {
+              "name": "tradingItemUid"
+            },
+            {
+              "name": "message"
+            },
+            {
+              "name": "errorCode"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "id"
+            },
+            {
+              "name": "type"
+            },
+            {
+              "name": "cart"
+            }
+          ]
+        },
+        {
+          "kind": "UNION",
+          "fields": null
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "data"
+            },
+            {
+              "name": "error"
+            }
+          ]
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "recurlyPublicKey"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "enabled"
+            },
+            {
+              "name": "selected"
+            },
+            {
+              "name": "state"
+            },
+            {
+              "name": "priceDetails"
+            },
+            {
+              "name": "currentMonth"
+            },
+            {
+              "name": "kind"
+            },
+            {
+              "name": "upcharge"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "label"
+            },
+            {
+              "name": "price"
+            }
+          ]
+        },
+        {
+          "kind": "UNION",
+          "fields": null
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "data"
+            },
+            {
+              "name": "error"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "id"
+            },
+            {
+              "name": "catalogueKey"
+            },
+            {
+              "name": "parentCatalogueId"
+            },
+            {
+              "name": "parentCatalogueKey"
+            },
+            {
+              "name": "name"
+            },
+            {
+              "name": "description"
+            },
+            {
+              "name": "image"
+            },
+            {
+              "name": "url"
+            },
+            {
+              "name": "pageTitle"
+            },
+            {
+              "name": "layout"
+            },
+            {
+              "name": "analytics"
+            },
+            {
+              "name": "availableFilters"
+            },
+            {
+              "name": "availableSorts"
+            },
+            {
+              "name": "children"
+            },
+            {
+              "name": "products"
+            },
+            {
+              "name": "catalogueProductFilterSettings"
+            },
+            {
+              "name": "mobilePageTopImage"
+            },
+            {
+              "name": "mobilePageSubtitle"
+            },
+            {
+              "name": "mobilePageLabel"
+            },
+            {
+              "name": "mobilePageTitle"
+            },
+            {
+              "name": "mobilePageDescription"
+            },
+            {
+              "name": "mobilePageDeeplink"
+            },
+            {
+              "name": "label"
+            },
+            {
+              "name": "tradingItemsLevel"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "page"
+            },
+            {
+              "name": "placement"
+            }
+          ]
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        },
+        {
+          "kind": "UNION",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "id"
+            },
+            {
+              "name": "name"
+            },
+            {
+              "name": "image"
+            },
+            {
+              "name": "popular"
+            },
+            {
+              "name": "group"
+            },
+            {
+              "name": "rebrandImage"
+            }
+          ]
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "id"
+            },
+            {
+              "name": "type"
+            },
+            {
+              "name": "catalogue"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "data"
+            },
+            {
+              "name": "error"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "id"
+            },
+            {
+              "name": "filterType"
+            },
+            {
+              "name": "filterSelectionType"
+            },
+            {
+              "name": "title"
+            },
+            {
+              "name": "values"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "id"
+            },
+            {
+              "name": "groups"
+            },
+            {
+              "name": "types"
+            },
+            {
+              "name": "gender"
+            },
+            {
+              "name": "category"
+            },
+            {
+              "name": "theEdit"
+            },
+            {
+              "name": "theShop"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "id"
+            },
+            {
+              "name": "type"
+            },
+            {
+              "name": "title"
+            }
+          ]
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "products"
+            },
+            {
+              "name": "count"
+            }
+          ]
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "title"
+            },
+            {
+              "name": "description"
+            }
+          ]
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "doNotSellMyPersonalInfo"
+            }
+          ]
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "data"
+            },
+            {
+              "name": "error"
+            }
+          ]
+        },
+        {
+          "kind": "UNION",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "plan"
+            },
+            {
+              "name": "nextBillingDate"
+            },
+            {
+              "name": "shipmentPeriod"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "errorCode"
+            },
+            {
+              "name": "message"
+            }
+          ]
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "id"
+            },
+            {
+              "name": "title"
+            },
+            {
+              "name": "description"
+            },
+            {
+              "name": "collectionType"
+            },
+            {
+              "name": "gender"
+            },
+            {
+              "name": "url"
+            },
+            {
+              "name": "status"
+            },
+            {
+              "name": "products"
+            },
+            {
+              "name": "imgDesktop"
+            },
+            {
+              "name": "imgMobile"
+            },
+            {
+              "name": "howItWorks"
+            },
+            {
+              "name": "footer"
+            },
+            {
+              "name": "video"
+            },
+            {
+              "name": "gallery"
+            },
+            {
+              "name": "buttonTitle"
+            },
+            {
+              "name": "group"
+            },
+            {
+              "name": "productSource"
+            }
+          ]
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "data"
+            }
+          ]
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "id"
+            },
+            {
+              "name": "type"
+            },
+            {
+              "name": "title"
+            },
+            {
+              "name": "collections"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "code"
+            },
+            {
+              "name": "name"
+            }
+          ]
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "id"
+            },
+            {
+              "name": "name"
+            },
+            {
+              "name": "alpha2"
+            },
+            {
+              "name": "regions"
+            },
+            {
+              "name": "shippingPrice"
+            },
+            {
+              "name": "paymentSettings"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "data"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "id"
+            },
+            {
+              "name": "type"
+            },
+            {
+              "name": "code"
+            },
+            {
+              "name": "discountAmount"
+            },
+            {
+              "name": "discountPercentage"
+            },
+            {
+              "name": "shouldCharge"
+            },
+            {
+              "name": "chargeAmount"
+            },
+            {
+              "name": "extraShippingPrice"
+            },
+            {
+              "name": "marketingCouponOfferType"
+            },
+            {
+              "name": "origin"
+            },
+            {
+              "name": "freeProduct"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "coupon"
+            },
+            {
+              "name": "totalAmount"
+            },
+            {
+              "name": "couponApplyPeriod"
+            }
+          ]
+        },
+        {
+          "kind": "UNION",
+          "fields": null
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "data"
+            },
+            {
+              "name": "error"
+            }
+          ]
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        },
+        {
+          "kind": "UNION",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "error"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "errorCode"
+            },
+            {
+              "name": "message"
+            }
+          ]
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "createdDate"
+            },
+            {
+              "name": "code"
+            },
+            {
+              "name": "type"
+            },
+            {
+              "name": "marketingCouponOfferType"
+            },
+            {
+              "name": "discountAmount"
+            },
+            {
+              "name": "discountPercentage"
+            },
+            {
+              "name": "freeProductSku"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "couponRedemptions"
+            }
+          ]
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        },
+        {
+          "kind": "UNION",
+          "fields": null
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "error"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "accountCredits"
+            },
+            {
+              "name": "ecommerceCredits"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "label"
+            },
+            {
+              "name": "amount"
+            }
+          ]
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        },
+        {
+          "kind": "UNION",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "id"
+            },
+            {
+              "name": "title"
+            },
+            {
+              "name": "data"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "from"
+            },
+            {
+              "name": "to"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "unit"
+            },
+            {
+              "name": "amount"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "coupon"
+            },
+            {
+              "name": "label"
+            },
+            {
+              "name": "note"
+            },
+            {
+              "name": "unit"
+            },
+            {
+              "name": "amount"
+            }
+          ]
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "images"
+            },
+            {
+              "name": "refillClipScent"
+            },
+            {
+              "name": "refillScent"
+            },
+            {
+              "name": "refillClip"
+            },
+            {
+              "name": "refill"
+            }
+          ]
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "id"
+            },
+            {
+              "name": "type"
+            },
+            {
+              "name": "label"
+            },
+            {
+              "name": "title"
+            },
+            {
+              "name": "description"
+            },
+            {
+              "name": "bannerImage"
+            },
+            {
+              "name": "buttonText"
+            },
+            {
+              "name": "catalogueSection"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "scentOfMonthUid"
+            },
+            {
+              "name": "name"
+            },
+            {
+              "name": "description"
+            },
+            {
+              "name": "image"
+            },
+            {
+              "name": "price"
+            },
+            {
+              "name": "discountPrice"
+            },
+            {
+              "name": "starterSet"
+            }
+          ]
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "promoId"
+            },
+            {
+              "name": "promoTradingItem"
+            },
+            {
+              "name": "freeEcommercePromoRemain"
+            },
+            {
+              "name": "freeEcommercePromoProgress"
+            },
+            {
+              "name": "freeEcommercePromoGoal"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "sent"
+            }
+          ]
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "data"
+            },
+            {
+              "name": "error"
+            }
+          ]
+        },
+        {
+          "kind": "UNION",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "needCardUpdate"
+            },
+            {
+              "name": "needTryAgain"
+            },
+            {
+              "name": "needResubscribe"
+            },
+            {
+              "name": "needChangeFrequency"
+            },
+            {
+              "name": "needUnskip"
+            },
+            {
+              "name": "needAddressUpdate"
+            }
+          ]
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "errorCode"
+            },
+            {
+              "name": "message"
+            }
+          ]
+        },
+        {
+          "kind": "UNION",
+          "fields": null
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "name"
+            },
+            {
+              "name": "enabled"
+            }
+          ]
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "featureToggles"
+            }
+          ]
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "data"
+            },
+            {
+              "name": "error"
+            }
+          ]
+        },
+        {
+          "kind": "UNION",
+          "fields": null
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "id"
+            },
+            {
+              "name": "uid"
+            },
+            {
+              "name": "name"
+            },
+            {
+              "name": "price"
+            },
+            {
+              "name": "gender"
+            },
+            {
+              "name": "discount"
+            },
+            {
+              "name": "startDate"
+            },
+            {
+              "name": "endDate"
+            },
+            {
+              "name": "timeLeft"
+            },
+            {
+              "name": "image"
+            },
+            {
+              "name": "description"
+            },
+            {
+              "name": "offerDescription"
+            },
+            {
+              "name": "tradingItem"
+            },
+            {
+              "name": "media"
+            },
+            {
+              "name": "products"
+            },
+            {
+              "name": "tradingItems"
+            },
+            {
+              "name": "banner"
+            },
+            {
+              "name": "background"
+            },
+            {
+              "name": "modal"
+            }
+          ]
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "data"
+            },
+            {
+              "name": "error"
+            }
+          ]
+        },
+        {
+          "kind": "UNION",
+          "fields": null
+        },
+        {
+          "kind": "SCALAR",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "errorCode"
+            },
+            {
+              "name": "message"
+            },
+            {
+              "name": "brands"
+            },
+            {
+              "name": "locations"
+            },
+            {
+              "name": "products"
+            },
+            {
+              "name": "tradingItems"
+            }
+          ]
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "name"
+            },
+            {
+              "name": "image"
+            },
+            {
+              "name": "description"
+            },
+            {
+              "name": "products"
+            },
+            {
+              "name": "rebrandImageSmall"
+            },
+            {
+              "name": "rebrandImageLarge"
+            },
+            {
+              "name": "rebrandImageMedium"
+            },
+            {
+              "name": "popularNotes"
+            },
+            {
+              "name": "slug"
+            }
+          ]
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "data"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "data"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "status"
+            }
+          ]
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "key"
+            }
+          ]
+        },
+        {
+          "kind": "UNION",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "text"
+            },
+            {
+              "name": "strong"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "code"
+            },
+            {
+              "name": "amount"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "errorCode"
+            },
+            {
+              "name": "message"
+            }
+          ]
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "data"
+            },
+            {
+              "name": "error"
+            }
+          ]
+        },
+        {
+          "kind": "UNION",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "id"
+            },
+            {
+              "name": "code"
+            },
+            {
+              "name": "type"
+            },
+            {
+              "name": "credits"
+            }
+          ]
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "label"
+            },
+            {
+              "name": "type"
+            },
+            {
+              "name": "recipient"
+            },
+            {
+              "name": "sender"
+            },
+            {
+              "name": "product"
+            },
+            {
+              "name": "tradingItem"
+            },
+            {
+              "name": "price"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "id"
+            },
+            {
+              "name": "total"
+            },
+            {
+              "name": "quantity"
+            },
+            {
+              "name": "recipient"
+            },
+            {
+              "name": "sender"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "name"
+            },
+            {
+              "name": "email"
+            },
+            {
+              "name": "message"
+            },
+            {
+              "name": "date"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "name"
+            },
+            {
+              "name": "email"
+            }
+          ]
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "representation"
+            },
+            {
+              "name": "plans"
+            },
+            {
+              "name": "offer"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "promo"
+            },
+            {
+              "name": "title"
+            },
+            {
+              "name": "description"
+            },
+            {
+              "name": "banner"
+            },
+            {
+              "name": "discountKey"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "promoTradingItem"
+            },
+            {
+              "name": "condition"
+            },
+            {
+              "name": "giftProduct"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "queueItemsCount"
+            },
+            {
+              "name": "subTotal"
+            }
+          ]
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "id"
+            },
+            {
+              "name": "code"
+            },
+            {
+              "name": "recipientName"
+            },
+            {
+              "name": "email"
+            },
+            {
+              "name": "gender"
+            },
+            {
+              "name": "activated"
+            },
+            {
+              "name": "months"
+            },
+            {
+              "name": "recipientRegistered"
+            },
+            {
+              "name": "canResendEmail"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "errorCode"
+            },
+            {
+              "name": "message"
+            }
+          ]
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "bannerImage"
+            },
+            {
+              "name": "bannerTitle"
+            },
+            {
+              "name": "bannerText"
+            },
+            {
+              "name": "bannerLabel"
+            },
+            {
+              "name": "panelTitle"
+            },
+            {
+              "name": "panelText"
+            },
+            {
+              "name": "holidayGiftSubscription"
+            },
+            {
+              "name": "image"
+            },
+            {
+              "name": "rebrandImage"
+            },
+            {
+              "name": "bannerRebrandImage"
+            }
+          ]
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "plan"
+            },
+            {
+              "name": "label"
+            },
+            {
+              "name": "recipient"
+            },
+            {
+              "name": "sender"
+            },
+            {
+              "name": "price"
+            },
+            {
+              "name": "offer"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "id"
+            },
+            {
+              "name": "type"
+            },
+            {
+              "name": "title"
+            },
+            {
+              "name": "representation"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "image"
+            },
+            {
+              "name": "priceOfferText"
+            },
+            {
+              "name": "description"
+            },
+            {
+              "name": "whatYouAreGetting"
+            },
+            {
+              "name": "freeProductsAmount"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "id"
+            },
+            {
+              "name": "giftSubscriptionId"
+            },
+            {
+              "name": "image"
+            },
+            {
+              "name": "priceOfferText"
+            },
+            {
+              "name": "description"
+            },
+            {
+              "name": "whatYouAreGetting"
+            },
+            {
+              "name": "freeProductsAmount"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "data"
+            },
+            {
+              "name": "error"
+            }
+          ]
+        },
+        {
+          "kind": "UNION",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "plan"
+            },
+            {
+              "name": "representation"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "title"
+            },
+            {
+              "name": "subtitle"
+            },
+            {
+              "name": "benefits"
+            },
+            {
+              "name": "labels"
+            },
+            {
+              "name": "buttonText"
+            },
+            {
+              "name": "subscriptionText"
+            },
+            {
+              "name": "image"
+            },
+            {
+              "name": "rebrandImage"
+            },
+            {
+              "name": "freeProductsAmount"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "id"
+            },
+            {
+              "name": "giftSubscriptionId"
+            },
+            {
+              "name": "total"
+            },
+            {
+              "name": "quantity"
+            },
+            {
+              "name": "recipient"
+            },
+            {
+              "name": "sender"
+            },
+            {
+              "name": "month"
+            }
+          ]
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "errorCode"
+            },
+            {
+              "name": "message"
+            }
+          ]
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        },
+        {
+          "kind": "UNION",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "type"
+            },
+            {
+              "name": "recommenderName"
+            },
+            {
+              "name": "recommendedProducts"
+            },
+            {
+              "name": "unratedProducts"
+            }
+          ]
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "SCALAR",
+          "fields": null
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "url"
+            }
+          ]
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "subscription"
+            },
+            {
+              "name": "caseSubscription"
+            },
+            {
+              "name": "upcharge"
+            },
+            {
+              "name": "giftCard"
+            },
+            {
+              "name": "giftSubscription"
+            },
+            {
+              "name": "products"
+            },
+            {
+              "name": "ecommercePromos"
+            },
+            {
+              "name": "limitedDropItems"
+            },
+            {
+              "name": "premiumProducts"
+            },
+            {
+              "name": "queueItems"
+            },
+            {
+              "name": "queuePromos"
+            },
+            {
+              "name": "discounts"
+            },
+            {
+              "name": "shipping"
+            },
+            {
+              "name": "tax"
+            },
+            {
+              "name": "credits"
+            },
+            {
+              "name": "subscriptionCase"
+            },
+            {
+              "name": "subscriptionPromos"
+            },
+            {
+              "name": "purchaseProgress"
+            }
+          ]
+        },
+        {
+          "kind": "SCALAR",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "email"
+            },
+            {
+              "name": "token"
+            }
+          ]
+        },
+        {
+          "kind": "SCALAR",
+          "fields": null
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "id"
+            },
+            {
+              "name": "type"
+            },
+            {
+              "name": "limitedDropSale"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "id"
+            },
+            {
+              "name": "uid"
+            },
+            {
+              "name": "product"
+            },
+            {
+              "name": "quantity"
+            },
+            {
+              "name": "parentPurchaseTradingItemId"
+            },
+            {
+              "name": "parentPurchaseTradingItemUid"
+            },
+            {
+              "name": "price"
+            },
+            {
+              "name": "expiredDate"
+            },
+            {
+              "name": "productState"
+            },
+            {
+              "name": "countdownState"
+            },
+            {
+              "name": "image"
+            },
+            {
+              "name": "isPromo"
+            },
+            {
+              "name": "giftProducts"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "uid"
+            },
+            {
+              "name": "startDate"
+            },
+            {
+              "name": "endDate"
+            },
+            {
+              "name": "burndownDate"
+            },
+            {
+              "name": "enabled"
+            },
+            {
+              "name": "name"
+            },
+            {
+              "name": "status"
+            },
+            {
+              "name": "nextDropDate"
+            },
+            {
+              "name": "products"
+            }
+          ]
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "data"
+            }
+          ]
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "data"
+            }
+          ]
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "volumeCustomText"
+            },
+            {
+              "name": "productsRemainingCount"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "id"
+            },
+            {
+              "name": "type"
+            },
+            {
+              "name": "title"
+            },
+            {
+              "name": "list"
+            },
+            {
+              "name": "recommenderName"
+            }
+          ]
+        },
+        {
+          "kind": "SCALAR",
+          "fields": null
+        },
+        {
+          "kind": "SCALAR",
+          "fields": null
+        },
+        {
+          "kind": "SCALAR",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "error"
+            },
+            {
+              "name": "message"
+            },
+            {
+              "name": "cause"
+            },
+            {
+              "name": "resolution"
+            }
+          ]
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "id"
+            },
+            {
+              "name": "name"
+            },
+            {
+              "name": "mixpanelName"
+            },
+            {
+              "name": "image"
+            },
+            {
+              "name": "link"
+            }
+          ]
+        },
+        {
+          "kind": "INTERFACE",
+          "fields": [
+            {
+              "name": "id"
+            },
+            {
+              "name": "type"
+            }
+          ]
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "blocks"
+            },
+            {
+              "name": "hasNext"
+            }
+          ]
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "data"
+            },
+            {
+              "name": "error"
+            }
+          ]
+        },
+        {
+          "kind": "UNION",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "amountCents"
+            },
+            {
+              "name": "currencyCode"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "couponApply"
+            },
+            {
+              "name": "couponClear"
+            },
+            {
+              "name": "purchaseBegin"
+            },
+            {
+              "name": "purchaseCommit"
+            },
+            {
+              "name": "purchaseFailed"
+            },
+            {
+              "name": "purchaseOneClick"
+            },
+            {
+              "name": "subscriptionChangePlan"
+            },
+            {
+              "name": "subscriptionChangeFrequencyFeedback"
+            },
+            {
+              "name": "subscriptionSkip"
+            },
+            {
+              "name": "subscriptionSkipFeedback"
+            },
+            {
+              "name": "subscriptionUnskip"
+            },
+            {
+              "name": "subscriptionUnskipOneClick"
+            },
+            {
+              "name": "subscriptionUnsubscribe"
+            },
+            {
+              "name": "subscriptionResubscribe"
+            },
+            {
+              "name": "subscriptionResubscribeOneClick"
+            },
+            {
+              "name": "subscriptionUnsubscribeFeedback"
+            },
+            {
+              "name": "paymentMethodCreateBegin"
+            },
+            {
+              "name": "paymentMethodCreateCommit"
+            },
+            {
+              "name": "paymentMethodSetPrimary"
+            },
+            {
+              "name": "paymentMethodSetBackup"
+            },
+            {
+              "name": "paymentMethodDelete"
+            },
+            {
+              "name": "cartModify"
+            },
+            {
+              "name": "cartDelete"
+            },
+            {
+              "name": "cartClear"
+            },
+            {
+              "name": "pixelApply"
+            },
+            {
+              "name": "userShareEmail"
+            },
+            {
+              "name": "unsubscribeFlowStarted"
+            },
+            {
+              "name": "queueAddItem"
+            },
+            {
+              "name": "queueAddMultipleItems"
+            },
+            {
+              "name": "queueDeleteItem"
+            },
+            {
+              "name": "queueMoveItem"
+            },
+            {
+              "name": "queueUpdateItem"
+            },
+            {
+              "name": "createQuizResult"
+            },
+            {
+              "name": "addressAdd"
+            },
+            {
+              "name": "addressUpdate"
+            },
+            {
+              "name": "addressDelete"
+            },
+            {
+              "name": "addressValidate"
+            },
+            {
+              "name": "addressConfirmed"
+            },
+            {
+              "name": "giftSubscriptionRedeem"
+            },
+            {
+              "name": "giftSubscriptionResendEmail"
+            },
+            {
+              "name": "giftCardAccept"
+            },
+            {
+              "name": "paymentPageEventFire"
+            },
+            {
+              "name": "popupShown"
+            },
+            {
+              "name": "userPersonalInfoUpdate"
+            },
+            {
+              "name": "userEmailSubscribe"
+            },
+            {
+              "name": "userEmailUnsubscribe"
+            },
+            {
+              "name": "subscriptionSettingsUpdate"
+            },
+            {
+              "name": "referralVisit"
+            },
+            {
+              "name": "referralInvite"
+            },
+            {
+              "name": "referralInviteMobile"
+            },
+            {
+              "name": "userLogIn"
+            },
+            {
+              "name": "userLogout"
+            },
+            {
+              "name": "userRegister"
+            },
+            {
+              "name": "userMagicLinkCreate"
+            },
+            {
+              "name": "userMagicLinkPinCodeVerify"
+            },
+            {
+              "name": "userAppleSignIn"
+            },
+            {
+              "name": "userFacebookSignIn"
+            },
+            {
+              "name": "userGoogleSignIn"
+            },
+            {
+              "name": "userPasswordRestoreBegin"
+            },
+            {
+              "name": "userPasswordRestoreValidate"
+            },
+            {
+              "name": "userPasswordRestoreFinish"
+            },
+            {
+              "name": "userPasswordChange"
+            },
+            {
+              "name": "userFeedback"
+            },
+            {
+              "name": "ccpaChange"
+            },
+            {
+              "name": "featureToggle"
+            },
+            {
+              "name": "emailSend"
+            },
+            {
+              "name": "productReviewCreate"
+            },
+            {
+              "name": "productReviewUpdate"
+            },
+            {
+              "name": "productReviewComplain"
+            },
+            {
+              "name": "productReviewRate"
+            },
+            {
+              "name": "productReviewReply"
+            },
+            {
+              "name": "productReviewReplyRate"
+            },
+            {
+              "name": "productReviewTags"
+            },
+            {
+              "name": "userRemoveBegin"
+            },
+            {
+              "name": "userRemoveCommit"
+            },
+            {
+              "name": "postPurchaseSurveyCreate"
+            },
+            {
+              "name": "productRequest"
+            },
+            {
+              "name": "academyCourseLesson"
+            },
+            {
+              "name": "advertisingCampaignSet"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "id"
+            },
+            {
+              "name": "name"
+            },
+            {
+              "name": "image"
+            },
+            {
+              "name": "imageHd"
+            },
+            {
+              "name": "description"
+            },
+            {
+              "name": "slug"
+            },
+            {
+              "name": "rebrandImage"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "errorCode"
+            },
+            {
+              "name": "message"
+            }
+          ]
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "data"
+            },
+            {
+              "name": "error"
+            }
+          ]
+        },
+        {
+          "kind": "UNION",
+          "fields": null
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "data"
+            },
+            {
+              "name": "error"
+            }
+          ]
+        },
+        {
+          "kind": "UNION",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "slug"
+            },
+            {
+              "name": "name"
+            },
+            {
+              "name": "description"
+            },
+            {
+              "name": "image"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "mobile"
+            },
+            {
+              "name": "desktop"
+            },
+            {
+              "name": "tabletPortrait"
+            },
+            {
+              "name": "tabletLandscape"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "olfactiveClass"
+            },
+            {
+              "name": "products"
+            }
+          ]
+        },
+        {
+          "kind": "INTERFACE",
+          "fields": [
+            {
+              "name": "message"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "id"
+            },
+            {
+              "name": "status"
+            },
+            {
+              "name": "statusFinalized"
+            }
+          ]
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "id"
+            },
+            {
+              "name": "number"
+            },
+            {
+              "name": "createdDate"
+            },
+            {
+              "name": "deliveryMonth"
+            },
+            {
+              "name": "status"
+            },
+            {
+              "name": "statusText"
+            },
+            {
+              "name": "estimatedShipmentDate"
+            },
+            {
+              "name": "items"
+            },
+            {
+              "name": "shipment"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "order"
+            }
+          ]
+        },
+        {
+          "kind": "UNION",
+          "fields": null
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "uid"
+            },
+            {
+              "name": "image"
+            },
+            {
+              "name": "giftProducts"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "data"
+            },
+            {
+              "name": "error"
+            }
+          ]
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "number"
+            },
+            {
+              "name": "url"
+            },
+            {
+              "name": "status"
+            },
+            {
+              "name": "statusText"
+            }
+          ]
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "data"
+            },
+            {
+              "name": "totalCount"
+            }
+          ]
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "errorCode"
+            },
+            {
+              "name": "message"
+            }
+          ]
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "errorCode"
+            },
+            {
+              "name": "message"
+            }
+          ]
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "recurlyPublicKey"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "errorCode"
+            },
+            {
+              "name": "gatewayErrorCode"
+            },
+            {
+              "name": "gatewayErrorMessage"
+            },
+            {
+              "name": "message"
+            },
+            {
+              "name": "metadata"
+            }
+          ]
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "id"
+            },
+            {
+              "name": "type"
+            },
+            {
+              "name": "primary"
+            },
+            {
+              "name": "name"
+            },
+            {
+              "name": "expirationDate"
+            },
+            {
+              "name": "valid"
+            },
+            {
+              "name": "note"
+            },
+            {
+              "name": "scope"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "sessionId"
+            }
+          ]
+        },
+        {
+          "kind": "UNION",
+          "fields": null
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "data"
+            },
+            {
+              "name": "error"
+            }
+          ]
+        },
+        {
+          "kind": "UNION",
+          "fields": null
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "paymentMethodId"
+            },
+            {
+              "name": "couponApplyPeriod"
+            }
+          ]
+        },
+        {
+          "kind": "UNION",
+          "fields": null
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "data"
+            },
+            {
+              "name": "error"
+            }
+          ]
+        },
+        {
+          "kind": "UNION",
+          "fields": null
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "error"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "errorCode"
+            },
+            {
+              "name": "paymentMethodId"
+            },
+            {
+              "name": "reason"
+            },
+            {
+              "name": "message"
+            },
+            {
+              "name": "metadata"
+            }
+          ]
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "error"
+            }
+          ]
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "error"
+            }
+          ]
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "error"
+            }
+          ]
+        },
+        {
+          "kind": "UNION",
+          "fields": null
+        },
+        {
+          "kind": "INTERFACE",
+          "fields": [
+            {
+              "name": "recurlyPublicKey"
+            }
+          ]
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "id"
+            },
+            {
+              "name": "firstName"
+            },
+            {
+              "name": "lastName"
+            },
+            {
+              "name": "email"
+            },
+            {
+              "name": "birthday"
+            },
+            {
+              "name": "gender"
+            },
+            {
+              "name": "avatar"
+            },
+            {
+              "name": "timezone"
+            },
+            {
+              "name": "addressInfo"
+            },
+            {
+              "name": "tokenLtn"
+            },
+            {
+              "name": "tokenApi"
+            },
+            {
+              "name": "credits"
+            },
+            {
+              "name": "analyticsMetadata"
+            },
+            {
+              "name": "doNotSellMyPersonalInfo"
+            },
+            {
+              "name": "registrationDate"
+            },
+            {
+              "name": "cashbirdAccountId"
+            }
+          ]
+        },
+        {
+          "kind": "UNION",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "product"
+            }
+          ]
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "error"
+            }
+          ]
+        },
+        {
+          "kind": "UNION",
+          "fields": null
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "upgradePlans"
+            },
+            {
+              "name": "downgradePlans"
+            },
+            {
+              "name": "changeFrequencyPlans"
+            }
+          ]
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "popupId"
+            },
+            {
+              "name": "count"
+            },
+            {
+              "name": "lastUpdated"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "popup"
+            }
+          ]
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "data"
+            },
+            {
+              "name": "error"
+            }
+          ]
+        },
+        {
+          "kind": "UNION",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "label"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "uid"
+            }
+          ]
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "data"
+            },
+            {
+              "name": "error"
+            }
+          ]
+        },
+        {
+          "kind": "UNION",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "product"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "name"
+            },
+            {
+              "name": "price"
+            }
+          ]
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "id"
+            },
+            {
+              "name": "type"
+            },
+            {
+              "name": "sale"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "id"
+            },
+            {
+              "name": "uid"
+            },
+            {
+              "name": "name"
+            },
+            {
+              "name": "fullName"
+            },
+            {
+              "name": "productType"
+            },
+            {
+              "name": "description"
+            },
+            {
+              "name": "brandInfo"
+            },
+            {
+              "name": "images"
+            },
+            {
+              "name": "image"
+            },
+            {
+              "name": "rebrandImage"
+            },
+            {
+              "name": "volume"
+            },
+            {
+              "name": "unit"
+            },
+            {
+              "name": "price"
+            },
+            {
+              "name": "upchargePrice"
+            },
+            {
+              "name": "type"
+            },
+            {
+              "name": "typeGroup"
+            },
+            {
+              "name": "url"
+            },
+            {
+              "name": "rating"
+            },
+            {
+              "name": "visibility"
+            },
+            {
+              "name": "category"
+            },
+            {
+              "name": "userRating"
+            },
+            {
+              "name": "userReview"
+            },
+            {
+              "name": "reviews"
+            },
+            {
+              "name": "notes"
+            },
+            {
+              "name": "gender"
+            },
+            {
+              "name": "hasLep"
+            },
+            {
+              "name": "hasLepSoldOut"
+            },
+            {
+              "name": "isSubscribedToStockNotification"
+            },
+            {
+              "name": "rebrandLabels"
+            },
+            {
+              "name": "candleLabels"
+            },
+            {
+              "name": "userVote"
+            },
+            {
+              "name": "fragranceFamilies"
+            },
+            {
+              "name": "media"
+            },
+            {
+              "name": "meta"
+            },
+            {
+              "name": "descriptionSections"
+            },
+            {
+              "name": "tagTypes"
+            },
+            {
+              "name": "selectedTradingItem"
+            },
+            {
+              "name": "selectedTradingItemUid"
+            },
+            {
+              "name": "tradingItems"
+            },
+            {
+              "name": "prices"
+            },
+            {
+              "name": "isFlashSale"
+            },
+            {
+              "name": "shareEmailAgreement"
+            },
+            {
+              "name": "giftSetItems"
+            },
+            {
+              "name": "theEdit"
+            },
+            {
+              "name": "saksSelected"
+            },
+            {
+              "name": "giftProducts"
+            },
+            {
+              "name": "drift"
+            },
+            {
+              "name": "hasVariety"
+            },
+            {
+              "name": "aiPoweredReview"
+            }
+          ]
+        },
+        {
+          "kind": "INTERFACE",
+          "fields": [
+            {
+              "name": "id"
+            },
+            {
+              "name": "title"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "errorCode"
+            },
+            {
+              "name": "message"
+            }
+          ]
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "data"
+            }
+          ]
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "id"
+            },
+            {
+              "name": "uid"
+            },
+            {
+              "name": "product"
+            },
+            {
+              "name": "quantity"
+            },
+            {
+              "name": "parentPurchaseTradingItemId"
+            },
+            {
+              "name": "parentPurchaseTradingItemUid"
+            },
+            {
+              "name": "price"
+            },
+            {
+              "name": "discount"
+            },
+            {
+              "name": "offer"
+            },
+            {
+              "name": "possibleOffer"
+            },
+            {
+              "name": "variety"
+            },
+            {
+              "name": "drift"
+            },
+            {
+              "name": "futureDiscounts"
+            }
+          ]
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "data"
+            }
+          ]
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "name"
+            },
+            {
+              "name": "key"
+            },
+            {
+              "name": "type"
+            },
+            {
+              "name": "thumb"
+            },
+            {
+              "name": "preview"
+            },
+            {
+              "name": "bigImage"
+            }
+          ]
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "medias"
+            },
+            {
+              "name": "mediaCategory"
+            },
+            {
+              "name": "count"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "title"
+            },
+            {
+              "name": "description"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "id"
+            },
+            {
+              "name": "uid"
+            },
+            {
+              "name": "year"
+            },
+            {
+              "name": "month"
+            },
+            {
+              "name": "monthName"
+            },
+            {
+              "name": "details"
+            },
+            {
+              "name": "product"
+            },
+            {
+              "name": "tradingItem"
+            },
+            {
+              "name": "type"
+            },
+            {
+              "name": "wave"
+            },
+            {
+              "name": "kind"
+            },
+            {
+              "name": "subscriptionPrice"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "logo"
+            },
+            {
+              "name": "text"
+            },
+            {
+              "name": "image"
+            },
+            {
+              "name": "imageTitle"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "image"
+            },
+            {
+              "name": "mobileImage"
+            },
+            {
+              "name": "listImage"
+            },
+            {
+              "name": "narrowListImage"
+            },
+            {
+              "name": "brand"
+            },
+            {
+              "name": "quote"
+            },
+            {
+              "name": "product"
+            },
+            {
+              "name": "video"
+            },
+            {
+              "name": "driftDetails"
+            }
+          ]
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "data"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "logo"
+            },
+            {
+              "name": "title"
+            },
+            {
+              "name": "image"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "text"
+            },
+            {
+              "name": "author"
+            },
+            {
+              "name": "authorPhoto"
+            },
+            {
+              "name": "authorDescription"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "url"
+            },
+            {
+              "name": "type"
+            },
+            {
+              "name": "preview"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "data"
+            },
+            {
+              "name": "error"
+            }
+          ]
+        },
+        {
+          "kind": "UNION",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "retail"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "id"
+            },
+            {
+              "name": "product"
+            },
+            {
+              "name": "tradingItem"
+            },
+            {
+              "name": "limitedDrop"
+            },
+            {
+              "name": "total"
+            },
+            {
+              "name": "quantity"
+            },
+            {
+              "name": "variety"
+            },
+            {
+              "name": "drift"
+            }
+          ]
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "UNION",
+          "fields": null
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "error"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "id"
+            },
+            {
+              "name": "rating"
+            },
+            {
+              "name": "date"
+            },
+            {
+              "name": "title"
+            },
+            {
+              "name": "text"
+            },
+            {
+              "name": "helpful"
+            },
+            {
+              "name": "ageCategory"
+            },
+            {
+              "name": "ageCategoryType"
+            },
+            {
+              "name": "skinType"
+            },
+            {
+              "name": "skinTypeType"
+            },
+            {
+              "name": "userLikes"
+            },
+            {
+              "name": "userDislikes"
+            },
+            {
+              "name": "user"
+            },
+            {
+              "name": "replies"
+            },
+            {
+              "name": "productReviewTags"
+            },
+            {
+              "name": "product"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "id"
+            }
+          ]
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "data"
+            },
+            {
+              "name": "error"
+            }
+          ]
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "review"
+            }
+          ]
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "data"
+            },
+            {
+              "name": "error"
+            }
+          ]
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "id"
+            },
+            {
+              "name": "date"
+            },
+            {
+              "name": "text"
+            },
+            {
+              "name": "helpful"
+            },
+            {
+              "name": "user"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "reply"
+            }
+          ]
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "data"
+            },
+            {
+              "name": "error"
+            }
+          ]
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "tagGroupOccasionId"
+            },
+            {
+              "name": "tagGroupPersonalityId"
+            },
+            {
+              "name": "tagGroupSeasonId"
+            },
+            {
+              "name": "tagGroupTypeId"
+            },
+            {
+              "name": "tagGroupAttributeId"
+            },
+            {
+              "name": "tagGroupComplexityId"
+            }
+          ]
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "reviews"
+            },
+            {
+              "name": "count"
+            }
+          ]
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "products"
+            },
+            {
+              "name": "bestsellers"
+            },
+            {
+              "name": "autocompletes"
+            },
+            {
+              "name": "notes"
+            },
+            {
+              "name": "brands"
+            },
+            {
+              "name": "resultId"
+            }
+          ]
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "uid"
+            },
+            {
+              "name": "strategyId"
+            }
+          ]
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "id"
+            },
+            {
+              "name": "name"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "errorCode"
+            },
+            {
+              "name": "message"
+            }
+          ]
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "id"
+            },
+            {
+              "name": "type"
+            },
+            {
+              "name": "title"
+            },
+            {
+              "name": "timeline"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "data"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "type"
+            },
+            {
+              "name": "recommenderName"
+            },
+            {
+              "name": "classes"
+            }
+          ]
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "id"
+            },
+            {
+              "name": "firstName"
+            },
+            {
+              "name": "lastName"
+            },
+            {
+              "name": "gender"
+            },
+            {
+              "name": "personalCode"
+            },
+            {
+              "name": "stats"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "orders"
+            },
+            {
+              "name": "reviews"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "sessionId"
+            },
+            {
+              "name": "v"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "errorCode"
+            },
+            {
+              "name": "message"
+            }
+          ]
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "data"
+            },
+            {
+              "name": "error"
+            }
+          ]
+        },
+        {
+          "kind": "UNION",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "orders"
+            },
+            {
+              "name": "total"
+            },
+            {
+              "name": "discounts"
+            },
+            {
+              "name": "purchaseLevel"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "errorCode"
+            },
+            {
+              "name": "message"
+            },
+            {
+              "name": "errorDetails"
+            }
+          ]
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "tradingItemId"
+            },
+            {
+              "name": "tradingItemUid"
+            },
+            {
+              "name": "tradingItemName"
+            }
+          ]
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "session"
+            },
+            {
+              "name": "data"
+            },
+            {
+              "name": "error"
+            }
+          ]
+        },
+        {
+          "kind": "UNION",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "errorCode"
+            },
+            {
+              "name": "message"
+            },
+            {
+              "name": "metadata"
+            }
+          ]
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        },
+        {
+          "kind": "UNION",
+          "fields": null
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "error"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "items"
+            },
+            {
+              "name": "subTotal"
+            },
+            {
+              "name": "total"
+            }
+          ]
+        },
+        {
+          "kind": "UNION",
+          "fields": null
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "data"
+            },
+            {
+              "name": "error"
+            }
+          ]
+        },
+        {
+          "kind": "INTERFACE",
+          "fields": [
+            {
+              "name": "id"
+            }
+          ]
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "ecommercePromoProgress"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "lastPurchaseSessionIdInProgress"
+            },
+            {
+              "name": "lastChangePlanSessionIdInProgress"
+            },
+            {
+              "name": "lastResubscribeSessionIdInProgress"
+            }
+          ]
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "currentUser"
+            },
+            {
+              "name": "order"
+            },
+            {
+              "name": "purchaseInquiry"
+            },
+            {
+              "name": "subscriptionChangePlanInquiry"
+            },
+            {
+              "name": "purchaseSession"
+            },
+            {
+              "name": "subscriptionChangePlanSession"
+            },
+            {
+              "name": "subscriptionResubscribeSession"
+            },
+            {
+              "name": "userPaymentProfile"
+            },
+            {
+              "name": "productsOfMonth"
+            },
+            {
+              "name": "productOfMonth"
+            },
+            {
+              "name": "product"
+            },
+            {
+              "name": "productSearch"
+            },
+            {
+              "name": "fragranticaPerfumeSearch"
+            },
+            {
+              "name": "productList"
+            },
+            {
+              "name": "collectionList"
+            },
+            {
+              "name": "fragranceFamily"
+            },
+            {
+              "name": "fragranceFamilyList"
+            },
+            {
+              "name": "tag"
+            },
+            {
+              "name": "quizResultPreview"
+            },
+            {
+              "name": "quizResult"
+            },
+            {
+              "name": "quizContent"
+            },
+            {
+              "name": "recommendations"
+            },
+            {
+              "name": "recommendationsEmptyQueue"
+            },
+            {
+              "name": "recommendationsForYou"
+            },
+            {
+              "name": "recommendationsSellingFast"
+            },
+            {
+              "name": "recommendationsLikeToTry"
+            },
+            {
+              "name": "recommendationsRecentlyViewed"
+            },
+            {
+              "name": "recommendationsSimilar"
+            },
+            {
+              "name": "giftSubscription"
+            },
+            {
+              "name": "mobileLandingGrid"
+            },
+            {
+              "name": "brands"
+            },
+            {
+              "name": "banners"
+            },
+            {
+              "name": "abTests"
+            },
+            {
+              "name": "catalogue"
+            },
+            {
+              "name": "countryList"
+            },
+            {
+              "name": "addressAutocomplete"
+            },
+            {
+              "name": "addressAutocompleteDetails"
+            },
+            {
+              "name": "note"
+            },
+            {
+              "name": "noteList"
+            },
+            {
+              "name": "noteMostPopularList"
+            },
+            {
+              "name": "features"
+            },
+            {
+              "name": "flashSaleList"
+            },
+            {
+              "name": "tossinProductList"
+            },
+            {
+              "name": "blogPostList"
+            },
+            {
+              "name": "productReview"
+            },
+            {
+              "name": "limitedDropSaleCurrent"
+            },
+            {
+              "name": "limitedDropSale"
+            },
+            {
+              "name": "productGiftPromo"
+            },
+            {
+              "name": "academyCourseList"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "hasLockedProducts"
+            },
+            {
+              "name": "notAvailableProductsFirstMonth"
+            },
+            {
+              "name": "notAvailableProductUidsFirstMonth"
+            },
+            {
+              "name": "queueItems"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "errorCode"
+            },
+            {
+              "name": "message"
+            }
+          ]
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "queue"
+            },
+            {
+              "name": "error"
+            }
+          ]
+        },
+        {
+          "kind": "UNION",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "errorDetails"
+            },
+            {
+              "name": "errorCode"
+            },
+            {
+              "name": "message"
+            }
+          ]
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "data"
+            },
+            {
+              "name": "error"
+            }
+          ]
+        },
+        {
+          "kind": "UNION",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "errorCode"
+            },
+            {
+              "name": "message"
+            }
+          ]
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "queue"
+            },
+            {
+              "name": "error"
+            }
+          ]
+        },
+        {
+          "kind": "UNION",
+          "fields": null
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "year"
+            },
+            {
+              "name": "month"
+            },
+            {
+              "name": "tracking"
+            },
+            {
+              "name": "statuses"
+            },
+            {
+              "name": "products"
+            },
+            {
+              "name": "monthPrice"
+            },
+            {
+              "name": "monthPriceWithPaid"
+            },
+            {
+              "name": "paid"
+            },
+            {
+              "name": "canceled"
+            }
+          ]
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "id"
+            },
+            {
+              "name": "product"
+            },
+            {
+              "name": "price"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "errorCode"
+            },
+            {
+              "name": "message"
+            }
+          ]
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "queue"
+            },
+            {
+              "name": "error"
+            }
+          ]
+        },
+        {
+          "kind": "UNION",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "tradingItem"
+            },
+            {
+              "name": "flatIndex"
+            },
+            {
+              "name": "priceWithBuyToQueueDiscount"
+            },
+            {
+              "name": "queueItemId"
+            },
+            {
+              "name": "variety"
+            },
+            {
+              "name": "drift"
+            }
+          ]
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "errorCode"
+            },
+            {
+              "name": "message"
+            }
+          ]
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "queue"
+            },
+            {
+              "name": "error"
+            }
+          ]
+        },
+        {
+          "kind": "UNION",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "question"
+            },
+            {
+              "name": "name"
+            },
+            {
+              "name": "answers"
+            }
+          ]
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "UNION",
+          "fields": null
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "questions"
+            },
+            {
+              "name": "error"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "banner"
+            },
+            {
+              "name": "scentProfileTitle"
+            },
+            {
+              "name": "scentProfileDescription"
+            },
+            {
+              "name": "fragranceFamily"
+            },
+            {
+              "name": "scentRecommendationText"
+            },
+            {
+              "name": "imageLarge"
+            },
+            {
+              "name": "imageSmall"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "id"
+            },
+            {
+              "name": "name"
+            },
+            {
+              "name": "viewType"
+            },
+            {
+              "name": "text"
+            },
+            {
+              "name": "counter"
+            },
+            {
+              "name": "answers"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "id"
+            },
+            {
+              "name": "answer"
+            },
+            {
+              "name": "title"
+            },
+            {
+              "name": "description"
+            },
+            {
+              "name": "body"
+            },
+            {
+              "name": "actionName"
+            },
+            {
+              "name": "backgroundUrl"
+            },
+            {
+              "name": "nextQuizQuestionId"
+            }
+          ]
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "result"
+            },
+            {
+              "name": "representation"
+            },
+            {
+              "name": "error"
+            }
+          ]
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "result"
+            },
+            {
+              "name": "representation"
+            },
+            {
+              "name": "error"
+            }
+          ]
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "id"
+            },
+            {
+              "name": "type"
+            },
+            {
+              "name": "title"
+            },
+            {
+              "name": "rateProducts"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "avgRate"
+            },
+            {
+              "name": "count"
+            },
+            {
+              "name": "distributionList"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "marketing"
+            },
+            {
+              "name": "extra"
+            },
+            {
+              "name": "characteristic"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "recommenderName"
+            },
+            {
+              "name": "products"
+            },
+            {
+              "name": "name"
+            },
+            {
+              "name": "pod"
+            },
+            {
+              "name": "productsStrategies"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "errorCode"
+            },
+            {
+              "name": "message"
+            }
+          ]
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "data"
+            },
+            {
+              "name": "error"
+            }
+          ]
+        },
+        {
+          "kind": "UNION",
+          "fields": null
+        },
+        {
+          "kind": "INTERFACE",
+          "fields": [
+            {
+              "name": "type"
+            },
+            {
+              "name": "recommenderName"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "errorCode"
+            },
+            {
+              "name": "message"
+            }
+          ]
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "UNION",
+          "fields": null
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "data"
+            },
+            {
+              "name": "error"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "id"
+            },
+            {
+              "name": "resultId"
+            },
+            {
+              "name": "strategyId"
+            }
+          ]
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "id"
+            },
+            {
+              "name": "firstName"
+            }
+          ]
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "code"
+            },
+            {
+              "name": "name"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "channelList"
+            },
+            {
+              "name": "code"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "errorCode"
+            },
+            {
+              "name": "message"
+            }
+          ]
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "email"
+            },
+            {
+              "name": "success"
+            },
+            {
+              "name": "link"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "errorCode"
+            },
+            {
+              "name": "message"
+            }
+          ]
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "data"
+            },
+            {
+              "name": "error"
+            }
+          ]
+        },
+        {
+          "kind": "UNION",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "statistics"
+            },
+            {
+              "name": "invites"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "available"
+            },
+            {
+              "name": "sent"
+            },
+            {
+              "name": "redeemed"
+            }
+          ]
+        },
+        {
+          "kind": "UNION",
+          "fields": null
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "data"
+            },
+            {
+              "name": "error"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "errorCode"
+            },
+            {
+              "name": "message"
+            }
+          ]
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "status"
+            }
+          ]
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "id"
+            },
+            {
+              "name": "name"
+            },
+            {
+              "name": "alpha2"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "reactivated"
+            },
+            {
+              "name": "order"
+            },
+            {
+              "name": "premiumProductInBatchNotification"
+            },
+            {
+              "name": "redirectUrl"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "errorCode"
+            },
+            {
+              "name": "message"
+            }
+          ]
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "errorCode"
+            },
+            {
+              "name": "message"
+            }
+          ]
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        },
+        {
+          "kind": "UNION",
+          "fields": null
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "positive"
+            },
+            {
+              "name": "negative"
+            },
+            {
+              "name": "isUseful"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "id"
+            },
+            {
+              "name": "type"
+            },
+            {
+              "name": "samplesSubscription"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "id"
+            },
+            {
+              "name": "status"
+            },
+            {
+              "name": "plan"
+            },
+            {
+              "name": "credits"
+            },
+            {
+              "name": "remainingShipments"
+            },
+            {
+              "name": "subscriptionDate"
+            },
+            {
+              "name": "nextShippingDate"
+            },
+            {
+              "name": "nextBillingDate"
+            },
+            {
+              "name": "nextBillingPrice"
+            },
+            {
+              "name": "formalCancellationDate"
+            },
+            {
+              "name": "cancelledDate"
+            },
+            {
+              "name": "stateOptions"
+            },
+            {
+              "name": "changePlansInquiry"
+            },
+            {
+              "name": "refundInquiry"
+            },
+            {
+              "name": "unsubscribeReasons"
+            },
+            {
+              "name": "coupon"
+            },
+            {
+              "name": "activeHold"
+            },
+            {
+              "name": "hasOrders"
+            },
+            {
+              "name": "cashbirdSubscriptionId"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "name"
+            },
+            {
+              "name": "value"
+            },
+            {
+              "name": "statusText"
+            },
+            {
+              "name": "subscribed"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "errorCode"
+            },
+            {
+              "name": "message"
+            }
+          ]
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "errorCode"
+            },
+            {
+              "name": "message"
+            }
+          ]
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "banner"
+            },
+            {
+              "name": "title"
+            },
+            {
+              "name": "advantages"
+            },
+            {
+              "name": "agreement"
+            },
+            {
+              "name": "description"
+            },
+            {
+              "name": "note"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "id"
+            },
+            {
+              "name": "lastUpdated"
+            },
+            {
+              "name": "shipmentDate"
+            },
+            {
+              "name": "status"
+            },
+            {
+              "name": "tracking"
+            }
+          ]
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "label"
+            },
+            {
+              "name": "note"
+            },
+            {
+              "name": "price"
+            },
+            {
+              "name": "freeShippingRemain"
+            },
+            {
+              "name": "freeShippingProgress"
+            }
+          ]
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "errorCode"
+            },
+            {
+              "name": "message"
+            }
+          ]
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "title"
+            },
+            {
+              "name": "duration"
+            },
+            {
+              "name": "restartDate"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "options"
+            }
+          ]
+        },
+        {
+          "kind": "SCALAR",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "errorCode"
+            },
+            {
+              "name": "message"
+            }
+          ]
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "purchaseSession"
+            },
+            {
+              "name": "subscriptionResubscribeSession"
+            },
+            {
+              "name": "subscriptionChangePlanSession"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "feedbackId"
+            }
+          ]
+        },
+        {
+          "kind": "UNION",
+          "fields": null
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "data"
+            },
+            {
+              "name": "error"
+            }
+          ]
+        },
+        {
+          "kind": "UNION",
+          "fields": null
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "currentPlan"
+            },
+            {
+              "name": "inquirePlan"
+            },
+            {
+              "name": "upgradeActivation"
+            },
+            {
+              "name": "nextBillingDate"
+            },
+            {
+              "name": "currentBalance"
+            },
+            {
+              "name": "items"
+            },
+            {
+              "name": "totalWithCurrency"
+            }
+          ]
+        },
+        {
+          "kind": "UNION",
+          "fields": null
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "data"
+            },
+            {
+              "name": "error"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "session"
+            },
+            {
+              "name": "data"
+            },
+            {
+              "name": "error"
+            }
+          ]
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "total"
+            },
+            {
+              "name": "paid"
+            },
+            {
+              "name": "gift"
+            },
+            {
+              "name": "marketingCoupon"
+            },
+            {
+              "name": "free"
+            },
+            {
+              "name": "freeForReferral"
+            },
+            {
+              "name": "freeForReferee"
+            },
+            {
+              "name": "customerSupport"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "id"
+            },
+            {
+              "name": "range"
+            },
+            {
+              "name": "monthsDuration"
+            }
+          ]
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "plan"
+            },
+            {
+              "name": "label"
+            },
+            {
+              "name": "note"
+            },
+            {
+              "name": "price"
+            },
+            {
+              "name": "coupon"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "id"
+            },
+            {
+              "name": "name"
+            },
+            {
+              "name": "billingPeriod"
+            },
+            {
+              "name": "shippingPeriod"
+            },
+            {
+              "name": "description"
+            },
+            {
+              "name": "definition"
+            },
+            {
+              "name": "productCount"
+            },
+            {
+              "name": "productPriceWithCurrency"
+            },
+            {
+              "name": "productsPerPeriod"
+            },
+            {
+              "name": "priceWithCurrency"
+            },
+            {
+              "name": "saveWithCurrency"
+            },
+            {
+              "name": "discount"
+            },
+            {
+              "name": "category"
+            },
+            {
+              "name": "planCode"
+            }
+          ]
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "defaultDiscountPrice"
+            },
+            {
+              "name": "defaultDiscountText"
+            },
+            {
+              "name": "defaultCoupon"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "plan"
+            },
+            {
+              "name": "nextBillingDate"
+            },
+            {
+              "name": "nextShippingDate"
+            },
+            {
+              "name": "selected"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "amount"
+            },
+            {
+              "name": "title"
+            },
+            {
+              "name": "promo"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "id"
+            },
+            {
+              "name": "cashbirdId"
+            },
+            {
+              "name": "plan"
+            },
+            {
+              "name": "totalWithCurrency"
+            },
+            {
+              "name": "subscriptionDate"
+            },
+            {
+              "name": "nextBillingDate"
+            },
+            {
+              "name": "caseSubscription"
+            }
+          ]
+        },
+        {
+          "kind": "UNION",
+          "fields": null
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "session"
+            },
+            {
+              "name": "data"
+            },
+            {
+              "name": "error"
+            }
+          ]
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "caseSubscription"
+            },
+            {
+              "name": "candleSubscription"
+            },
+            {
+              "name": "driftSubscription"
+            },
+            {
+              "name": "samplesSubscription"
+            }
+          ]
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "errorCode"
+            },
+            {
+              "name": "message"
+            },
+            {
+              "name": "kind"
+            },
+            {
+              "name": "metadata"
+            }
+          ]
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "needCardUpdate"
+            },
+            {
+              "name": "needTryAgain"
+            },
+            {
+              "name": "needTryLater"
+            }
+          ]
+        },
+        {
+          "kind": "UNION",
+          "fields": null
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "data"
+            },
+            {
+              "name": "error"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "hold"
+            },
+            {
+              "name": "nextBillingDate"
+            },
+            {
+              "name": "isCurrentMonthChargedOrCharging"
+            }
+          ]
+        },
+        {
+          "kind": "UNION",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "holdId"
+            }
+          ]
+        },
+        {
+          "kind": "UNION",
+          "fields": null
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "data"
+            },
+            {
+              "name": "error"
+            }
+          ]
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "data"
+            },
+            {
+              "name": "error"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "canChangeFrequency"
+            },
+            {
+              "name": "canSkip"
+            },
+            {
+              "name": "canUpgrade"
+            },
+            {
+              "name": "canDowngrade"
+            },
+            {
+              "name": "canCancel"
+            },
+            {
+              "name": "canResubscribe"
+            },
+            {
+              "name": "isResubscribed"
+            },
+            {
+              "name": "canBuyQueue"
+            }
+          ]
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "premiumProductInBatchNotification"
+            },
+            {
+              "name": "redirectUrl"
+            }
+          ]
+        },
+        {
+          "kind": "UNION",
+          "fields": null
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "data"
+            },
+            {
+              "name": "error"
+            }
+          ]
+        },
+        {
+          "kind": "UNION",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "unsubscribeReasonId"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "errorCode"
+            },
+            {
+              "name": "message"
+            }
+          ]
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "data"
+            },
+            {
+              "name": "error"
+            }
+          ]
+        },
+        {
+          "kind": "UNION",
+          "fields": null
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "data"
+            },
+            {
+              "name": "error"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "id"
+            },
+            {
+              "name": "name"
+            },
+            {
+              "name": "image"
+            },
+            {
+              "name": "imageProductFilter"
+            },
+            {
+              "name": "imageProductFilterRebrand"
+            },
+            {
+              "name": "voteCount"
+            },
+            {
+              "name": "type"
+            },
+            {
+              "name": "addToQueueFloatingRating"
+            }
+          ]
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "data"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "id"
+            },
+            {
+              "name": "name"
+            },
+            {
+              "name": "rebrandName"
+            },
+            {
+              "name": "type"
+            },
+            {
+              "name": "voteCount"
+            },
+            {
+              "name": "topTag"
+            },
+            {
+              "name": "tags"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "id"
+            },
+            {
+              "name": "type"
+            },
+            {
+              "name": "presentation"
+            },
+            {
+              "name": "quizResult"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "title"
+            },
+            {
+              "name": "body"
+            },
+            {
+              "name": "button"
+            },
+            {
+              "name": "background"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "label"
+            },
+            {
+              "name": "amount"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "id"
+            },
+            {
+              "name": "title"
+            },
+            {
+              "name": "text"
+            }
+          ]
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "id"
+            },
+            {
+              "name": "type"
+            },
+            {
+              "name": "groups"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "groupName"
+            },
+            {
+              "name": "price"
+            },
+            {
+              "name": "discount"
+            },
+            {
+              "name": "products"
+            },
+            {
+              "name": "gender"
+            },
+            {
+              "name": "title"
+            }
+          ]
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "data"
+            },
+            {
+              "name": "error"
+            }
+          ]
+        },
+        {
+          "kind": "UNION",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "id"
+            },
+            {
+              "name": "uid"
+            },
+            {
+              "name": "sku"
+            },
+            {
+              "name": "type"
+            },
+            {
+              "name": "section"
+            },
+            {
+              "name": "prices"
+            },
+            {
+              "name": "inStock"
+            },
+            {
+              "name": "volume"
+            },
+            {
+              "name": "image"
+            },
+            {
+              "name": "productGroup"
+            },
+            {
+              "name": "color"
+            },
+            {
+              "name": "productInfo"
+            },
+            {
+              "name": "isLimitedEdition"
+            },
+            {
+              "name": "limitedEditionInfo"
+            },
+            {
+              "name": "tossinProductGroup"
+            },
+            {
+              "name": "variety"
+            },
+            {
+              "name": "futureDiscounts"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "standardPrice"
+            },
+            {
+              "name": "discountPrice"
+            },
+            {
+              "name": "membershipPrice"
+            },
+            {
+              "name": "discountValidFrom"
+            },
+            {
+              "name": "discountValidUntil"
+            }
+          ]
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "name"
+            },
+            {
+              "name": "description"
+            },
+            {
+              "name": "image"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "items"
+            }
+          ]
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "errorCode"
+            },
+            {
+              "name": "message"
+            }
+          ]
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "unsubscribed"
+            },
+            {
+              "name": "recurrentCharge"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "errorCode"
+            },
+            {
+              "name": "message"
+            }
+          ]
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        },
+        {
+          "kind": "UNION",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "error"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "type"
+            },
+            {
+              "name": "reason"
+            }
+          ]
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "id"
+            },
+            {
+              "name": "status"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "label"
+            },
+            {
+              "name": "note"
+            },
+            {
+              "name": "price"
+            }
+          ]
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "data"
+            },
+            {
+              "name": "error"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "cart"
+            },
+            {
+              "name": "subscription"
+            },
+            {
+              "name": "personalInfo"
+            },
+            {
+              "name": "queue"
+            },
+            {
+              "name": "plansInquiry"
+            },
+            {
+              "name": "giftPlansInquiry"
+            },
+            {
+              "name": "skipOptionsInquiry"
+            },
+            {
+              "name": "paymentMethods"
+            },
+            {
+              "name": "orders"
+            },
+            {
+              "name": "dateTime"
+            },
+            {
+              "name": "couponRedemptions"
+            },
+            {
+              "name": "purchaseSessionInfo"
+            },
+            {
+              "name": "shippingAddresses"
+            },
+            {
+              "name": "canApplyTossInOffer"
+            },
+            {
+              "name": "caseSubscription"
+            },
+            {
+              "name": "candleSubscription"
+            },
+            {
+              "name": "driftSubscription"
+            },
+            {
+              "name": "samplesSubscription"
+            },
+            {
+              "name": "referralCode"
+            },
+            {
+              "name": "shownPopups"
+            },
+            {
+              "name": "giftSubscriptions"
+            },
+            {
+              "name": "giftCards"
+            },
+            {
+              "name": "reviews"
+            },
+            {
+              "name": "fraudInfo"
+            },
+            {
+              "name": "referralInvites"
+            },
+            {
+              "name": "growthBookUid"
+            },
+            {
+              "name": "localePreferences"
+            }
+          ]
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "UNION",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "error"
+            }
+          ]
+        },
+        {
+          "kind": "UNION",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "error"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "errorCode"
+            },
+            {
+              "name": "message"
+            }
+          ]
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "data"
+            },
+            {
+              "name": "error"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "id"
+            }
+          ]
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "data"
+            },
+            {
+              "name": "error"
+            }
+          ]
+        },
+        {
+          "kind": "UNION",
+          "fields": null
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "data"
+            },
+            {
+              "name": "error"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "locale"
+            },
+            {
+              "name": "currency"
+            },
+            {
+              "name": "country"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "errorCode"
+            },
+            {
+              "name": "message"
+            }
+          ]
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "data"
+            },
+            {
+              "name": "error"
+            }
+          ]
+        },
+        {
+          "kind": "UNION",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "error"
+            }
+          ]
+        },
+        {
+          "kind": "UNION",
+          "fields": null
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "data"
+            },
+            {
+              "name": "error"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "pinCodeToken"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "errorCode"
+            },
+            {
+              "name": "message"
+            }
+          ]
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        },
+        {
+          "kind": "UNION",
+          "fields": null
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "data"
+            },
+            {
+              "name": "error"
+            }
+          ]
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "data"
+            },
+            {
+              "name": "error"
+            }
+          ]
+        },
+        {
+          "kind": "UNION",
+          "fields": null
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "error"
+            }
+          ]
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "data"
+            },
+            {
+              "name": "error"
+            }
+          ]
+        },
+        {
+          "kind": "UNION",
+          "fields": null
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "error"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "data"
+            },
+            {
+              "name": "error"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "shipping"
+            }
+          ]
+        },
+        {
+          "kind": "UNION",
+          "fields": null
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "data"
+            },
+            {
+              "name": "error"
+            }
+          ]
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "data"
+            },
+            {
+              "name": "error"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "userData"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "errorCode"
+            },
+            {
+              "name": "message"
+            }
+          ]
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "data"
+            },
+            {
+              "name": "error"
+            }
+          ]
+        },
+        {
+          "kind": "UNION",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "data"
+            },
+            {
+              "name": "error"
+            }
+          ]
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "data"
+            },
+            {
+              "name": "error"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "date"
+            },
+            {
+              "name": "status"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "errorCode"
+            },
+            {
+              "name": "message"
+            }
+          ]
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        },
+        {
+          "kind": "UNION",
+          "fields": null
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        },
+        {
+          "kind": "UNION",
+          "fields": null
+        },
+        {
+          "kind": "INPUT_OBJECT",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "error"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "campaign"
+            },
+            {
+              "name": "medium"
+            },
+            {
+              "name": "source"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "errorCode"
+            },
+            {
+              "name": "fields"
+            },
+            {
+              "name": "message"
+            }
+          ]
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "field"
+            },
+            {
+              "name": "message"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "volume"
+            },
+            {
+              "name": "unit"
+            }
+          ]
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        },
+        {
+          "kind": "SCALAR",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "name"
+            },
+            {
+              "name": "description"
+            },
+            {
+              "name": "isRepeatable"
+            },
+            {
+              "name": "locations"
+            },
+            {
+              "name": "args"
+            }
+          ]
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "name"
+            },
+            {
+              "name": "description"
+            },
+            {
+              "name": "isDeprecated"
+            },
+            {
+              "name": "deprecationReason"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "name"
+            },
+            {
+              "name": "description"
+            },
+            {
+              "name": "args"
+            },
+            {
+              "name": "type"
+            },
+            {
+              "name": "isDeprecated"
+            },
+            {
+              "name": "deprecationReason"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "name"
+            },
+            {
+              "name": "description"
+            },
+            {
+              "name": "type"
+            },
+            {
+              "name": "defaultValue"
+            },
+            {
+              "name": "isDeprecated"
+            },
+            {
+              "name": "deprecationReason"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "description"
+            },
+            {
+              "name": "types"
+            },
+            {
+              "name": "queryType"
+            },
+            {
+              "name": "mutationType"
+            },
+            {
+              "name": "directives"
+            },
+            {
+              "name": "subscriptionType"
+            }
+          ]
+        },
+        {
+          "kind": "OBJECT",
+          "fields": [
+            {
+              "name": "kind"
+            },
+            {
+              "name": "name"
+            },
+            {
+              "name": "description"
+            },
+            {
+              "name": "fields"
+            },
+            {
+              "name": "interfaces"
+            },
+            {
+              "name": "possibleTypes"
+            },
+            {
+              "name": "enumValues"
+            },
+            {
+              "name": "inputFields"
+            },
+            {
+              "name": "ofType"
+            },
+            {
+              "name": "isOneOf"
+            },
+            {
+              "name": "specifiedByURL"
+            }
+          ]
+        },
+        {
+          "kind": "ENUM",
+          "fields": null
+        }
+      ]
+    }
+  }
+}

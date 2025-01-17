@@ -13,5 +13,9 @@
   "devDependencies": {
     "@playwright/test": "^1.49.1",
     "@types/node": "^22.10.5"
+  },
+  "dependencies": {
+    "graphql": "^16.10.0",
+    "graphql-tools": "^9.0.11"
   }
 }
